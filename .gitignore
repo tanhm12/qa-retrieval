@@ -1,0 +1,11 @@
+**__pycache__/
+.env
+.venv
+.vscode
+docker/docker-compose.yml
+docker/docker-volume
+interactive.py
+log
+repo_info.txt
+scripts.ipynb
+venv

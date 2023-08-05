@@ -1,0 +1,1 @@
+COMPOSE_PROJECT_NAME=qa-retrieval docker compose up -d

@@ -20,12 +20,12 @@ Copy the content of `.env.example` into `.env` file and put your own OpenAI key 
 For using with multiple users, you might want to add new users into the auth file (default is `auth.csv`).
 ## Running
 ### 1. Run Qdrant
-You can run Qdrant locally or using docker. Below commands is used to run Qdrant with docker:  
+You can run Qdrant locally or using docker. Below commands are used to run Qdrant with docker:  
 ```bash
 cd docker
 sh run_qdrant.sh
 ```
-Qdrant is noww running at port 6333, if you change the port then you need to change the variable `QDRANT_URL` in the config file (`.env`).
+Qdrant is now running at port 6333, if you change the port then you alsp need to update the variable `QDRANT_URL` in the config file (`.env`).
 ### 2. Run service
 Default running port is 10011 (can be changed in `demo.py`).
 ```bash
@@ -53,3 +53,7 @@ sh run.sh
 Demo is now running at http://localhost:10011.
 
 # Sample run (TODO: video)
+## Screenshots
+![](screenshots/login.png)
+![](screenshots/data.png)
+![](screenshots/QA.png)
